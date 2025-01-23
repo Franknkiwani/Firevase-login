@@ -3,8 +3,17 @@ import {getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/fire
 import{getFirestore, getDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
 
 const firebaseConfig = {
-    //YOUR COPIED FIREBASE PART SHOULD BE HERE
- //WATCH THIS VIDEO TO LEARN WHAT TO PUT HERE   https://youtu.be/_Xczf06n6x0
+    // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDFHskUWiyHhZke3KT9kkOtFI_gPsKfiGo",
+    authDomain: "itzhoyoo-f9f7e.firebaseapp.com",
+    projectId: "itzhoyoo-f9f7e",
+    storageBucket: "itzhoyoo-f9f7e.firebasestorage.app",
+    messagingSenderId: "1094792075584",
+    appId: "1:1094792075584:web:e918a364f4c6a5e61082a5",
+    measurementId: "G-9K7FVE3R1H"
+  }; 
   };
  
   // Initialize Firebase
